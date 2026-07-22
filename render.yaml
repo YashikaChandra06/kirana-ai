@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kirana-ai
+    runtime: static
+    buildCommand: npm run build
+    publishPath: dist
